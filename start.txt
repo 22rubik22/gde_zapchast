@@ -1,0 +1,4 @@
+
+compsoer instaall
+npm install -D tailwindcss postcss autoprefixer
+  -D 

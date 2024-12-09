@@ -1,0 +1,117 @@
+body {
+    font-family: "Nunito", sans-serif; 
+    font-optical-sizing: auto;  
+    font-style: normal;
+}   
+
+/* Стили для хедера */
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.header a:hover {
+    text-decoration: none; 
+    background-color: white; 
+    color: #0077ff; 
+    font-size: 16px;
+}
+
+.header button {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.header button:hover {
+    background-color: white;
+    color: #ff4d00;}
+
+.header a.current-page {
+    font-weight: bold; 
+    background-color: white; 
+    color: #0055aa; 
+    padding: 8px 15px; 
+    border-bottom: 2px solid #0055aa; 
+}
+
+.message-counter {
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    border-radius: 50%; 
+    width: 25px; 
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+}
+
+#citySelect {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 170px;
+}
+
+#citySelect option {
+    color: black;
+}
+
+.logo a {
+    font-size: 22px;
+    color: #0077ff; /* Цвет текста */
+    padding: 10px;
+    text-decoration: none; /* Отключает подчеркивание при наведении */
+    margin: 0 10px;
+    font-weight: bold; /* Делает текст жирным */
+    } 
+
+    .logo a strong {
+    font-size: 28px;
+        color: #040A11; /* Цвет для слова "Запчасть.рф" */
+    }
+
+    .logo a:hover {
+    font-size: 22px;
+
+    padding: 10px;
+    text-decoration: none; /* Отключает подчеркивание при наведении */
+    color: #0077ff; /* Цвет текста при наведении */
+    margin: 0 10px;
+    background-color: white;
+    }
+    #city{
+        font-size: 16px;
+        color: black;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        width: 170px;
+    }
+
+    #cityoption {
+        color: black;
+    }
+
+    .logourl{
+        width: 73%;
+        height: 4em;
+        margin-top: -12%;
+    }

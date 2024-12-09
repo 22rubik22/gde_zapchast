@@ -1,0 +1,17 @@
+body {
+    font-family: "Nunito", sans-serif; 
+    font-optical-sizing: auto;  
+    font-style: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+}      
+
+.content {
+    padding: 0 20px; /* Задаем отступы по 20px с каждой стороны */
+}
+
+.content ul {
+    list-style-type: none; /* Убираем стандартные маркеры списка */
+    padding: 0; /* Убираем внутренний отступ у списка */
+    padding: 0 40px; /* Задаем отступы по 20px с каждой стороны */
+}

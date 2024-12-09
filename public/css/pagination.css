@@ -1,0 +1,35 @@
+/* Стили для пагинации */
+.pagination {
+    display: flex; /* Используем flexbox для выравнивания */
+    justify-content: center; /* Центрируем кнопки */
+    margin: 20px 0; /* Отступы сверху и снизу */
+}
+
+.pagination a,
+.pagination span {
+    padding: 5px 10px; /* Уменьшаем внутренние отступы */
+    margin: 0 5px; /* Отступы между кнопками */
+    border: 1px solid #007bff; /* Граница кнопок */
+    border-radius: 10px; /* Скругляем углы */
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #007bff; /* Цвет текста */
+    background-color: white; /* Цвет фона */
+    font-size: 14px; /* Уменьшаем размер шрифта */
+}
+
+.pagination a:hover {
+    background-color: #007bff; /* Цвет фона при наведении */
+    color: white; /* Цвет текста при наведении */
+}
+
+/* Стили для текущей страницы */
+.pagination .active {
+    background-color: #007bff; /* Цвет фона для активной страницы */
+    color: white; /* Цвет текста для активной страницы */
+    border: 1px solid #007bff; /* Граница активной страницы (можно убрать, если не нужна) */
+}
+
+.pagination .active span {
+    padding: 5px 10px; /* Убедитесь, что отступы совпадают с другими элементами */
+    margin: 0 5px;
+}

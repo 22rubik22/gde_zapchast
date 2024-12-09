@@ -1,0 +1,89 @@
+form {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #0077ff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30%;
+}
+
+.form-control {
+    width: 100%; /* Устанавливаем ширину на 100% */
+    max-width: 600px; /* Ограничиваем максимальную ширину */
+    margin-bottom: 15px; /* Отступ между полями */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Вертикальное выравнивание */
+}
+
+.btn-primary {
+    width: 100%; /* Кнопка тоже на всю ширину */
+    max-width: 600px; /* Ограничиваем максимальную ширину кнопки */
+    margin-top: 20px; /* Отступ сверху для кнопки */
+}
+
+h1 {
+    margin-bottom: 20px; /* Отступ под заголовком */
+}
+
+.alert {
+    margin-bottom: 20px; /* Отступ под сообщениями об ошибках */
+}
+
+
+
+.container2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.button {
+    display: inline-block;
+    padding: 50px 50px;
+    background-color: #f0f0f0;
+    border: 0.1px solid #ccc;
+    border-radius: 10px;
+    margin: 30px;
+    font-size: 24px; /* Увеличиваем размер текста на кнопках */
+
+}
+.button:hover {
+    color: #007bff; 
+    cursor: pointer;
+}
+.import-form1 {
+    margin-top: 20px; /* Отступ сверху */
+    margin-bottom: 140px; /* Отступ снизу */
+}
+
+.import-form2 {
+    margin-top: 20px; /* Отступ сверху */
+    margin-bottom: 20px; /* Отступ снизу */
+
+}
+.container4 {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+
+}
+
+.import{
+    margin-top: 2%;
+}

@@ -1,0 +1,58 @@
+/* Добавьте этот CSS в ваш файл tariff-settings.css */
+
+.slider-container {
+    margin-top: 20px;
+}
+
+.slider-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.slider-container input[type="range"] {
+    width: 80%;
+}
+
+.slider-container input[type="number"] {
+    width: 80px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.slider-container span {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.price-container {
+    margin-top: 20px;
+}
+
+.price-container p {
+    margin: 10px 0;
+}
+
+.price-container span {
+    color: green;
+}
+
+h1,p,h3{
+  text-align: center;
+}
+
+button{
+    padding: 8px 16px;
+    background-color: #0077ff; /* Цвет фона */
+    color: white; /* Цвет текста */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 47%;
+    margin-bottom: 5%;
+}
+
+button:hover{
+    background-color: #005ba1; /* Цвет фона при наведении курсора */
+}

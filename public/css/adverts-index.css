@@ -1,0 +1,194 @@
+.advert-block {
+    width: 60%; /* Задаем процентную ширину относительно ширины экрана */
+    border: 1px solid #ccc;
+    margin: 20px auto; /* Центрируем блок по горизонтали и задаем вертикальные отступы */
+    margin-left: 50px; /* Добавляем отступ слева */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Эффект тени */
+        border-radius: 15px;
+    
+}
+
+.advert-block:hover {
+    background-color: #f0f8ff; /* Цвет выделения (светло-синий) */
+}
+
+.advert-details {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.banner {
+    max-width: 92%;
+    height: auto;
+    margin: 0 auto; /* Центрирует баннер по горизонтали */
+    display: block; /* Обязательно для центрирования */
+    border-radius: 20px; /* Скругляет углы баннера */
+    
+}
+body {
+    font-family:  "Nunito", sans-serif; 
+    font-optical-sizing: auto;  font-style: normal;
+} 
+h2 {
+    padding-left: 60px; /* Добавляет отступ слева в 20px */
+}
+
+/* Стили для блока объявления */
+.advert-block {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.advert-block:hover {
+    background-color: #f9f9f9;
+}
+
+.advert-details {
+    display: flex;
+    gap: 20px;
+}
+
+.advert-main-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.advert-details div {
+    flex: 1;
+}
+
+/* .list{
+    margin-top: 2%;
+} */
+
+.statistic {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+.statistic h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #343a40;
+}
+.statistic p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #6c757d;
+}
+.statistic .min-price {
+    color: green;
+}
+.statistic .avg-price {
+    color: orange;
+}
+.statistic .max-price {
+    color: red;
+}
+
+.advert-block{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    column-gap: 50px;
+}
+
+
+.advert-block>.list{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.list{
+    width: 90%;
+}
+.list>.car{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: start;
+}
+
+.list>.car>span{
+    background-color: rgb(251, 231, 182);
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.list>.name{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+    justify-items: start;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.list>.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: start;
+}
+
+.list>.info>.end{
+    color: red;
+    font-size: 14px;
+}
+
+.beg{
+    background-color: #f0f0f0;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    color: black;
+    font-size: 14px;
+}
+
+.end{
+    justify-self: end;
+}
+
+
+.filters{
+    position: absolute;
+    border: 0.1px solid #ccc;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-left: 69%;
+    margin-bottom: -9%;
+    
+}
+
+button{
+    background-color: #0077ff;
+    color: #ffffff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-shrink: 0; /* Запрещаем сжатие кнопки */
+}
+
+.resultsearch{
+    margin-left: 4%;
+}

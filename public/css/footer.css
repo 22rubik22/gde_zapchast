@@ -1,0 +1,55 @@
+.footer {
+    background-color: #ffffffde;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    box-shadow: 0 -1px 3px rgba(154, 153, 153, 0.2);
+    margin-top: 100px;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    background-color: #ffffffde;
+    color: #0077ff;
+}
+
+.footer button {
+    background-color: #ff4d00;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.footer button:hover {
+    background-color: #ff6600;
+}
+
+.logo2 a {
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black; /* Измените на нужный цвет */
+    margin: 0 10px;
+}
+
+.logo2 a:hover {
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black; /* Цвет текста при наведении */
+    background-color: #ffffffde;
+}
+.container {
+    color: black; /* Цвет текста при наведении */
+
+}

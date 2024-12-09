@@ -1,0 +1,39 @@
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 70%;
+}
+
+.sent {
+    align-self: flex-end;
+    background-color: #d1e7dd; /* Цвет фона для отправленных сообщений */
+    color: #0f5132; /* Цвет текстадля отправленных сообщений */
+}
+
+.received {
+    align-self: flex-start;
+    background-color: #f8d7da; /* Цвет фона для полученных сообщений */
+    color: #721c24; /* Цвет текста для полученных сообщений */
+}
+
+.message-date {
+    text-align: center;
+    margin: 10px 0;
+    color: #888;
+    font-size: 0.9em;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+   
+}
+

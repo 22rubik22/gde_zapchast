@@ -1,0 +1,114 @@
+/* Стили для формы входа */
+#loginForm {
+    display: none;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.switch-button {
+    background-color: #0077ff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+}
+
+
+
+/* Стили для форм */
+form {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2{
+    margin-left: 46%;
+}
+
+input{
+    margin-left: -2.5%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #0077ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #005ba1;
+}
+
+.suggest-view {
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute; /* Добавляем позиционирование, чтобы список подсказок не выходил за пределы */
+    background-color: #fff; /* Цвет фона для лучшей видимости */
+    border: 1px solid #ccc; /* Границы для списка подсказок */
+    z-index: 1000; /* Устанавливаем z-index для корректного отображения над другими элементами */
+}
+
+/* Стили для адреса */
+.my-suggest-view {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.my-suggest-view li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.my-suggest-view li:hover {
+    background-color: #f9f9f9;
+}
+
+/* Глаз в поле пароля */
+.password-container {
+    position: relative;
+}
+
+.password-icon {
+    width: 20px; /* Установите нужный размер */
+    height: 20px;
+    margin-left: 95%;
+    position: absolute;
+    margin-top: -9.5%;
+}
+
+img{
+    cursor: pointer;
+ 
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+input[type="radio"]{
+    cursor: pointer;
+    margin-bottom: 4%;
+    margin-left: 17%;
+}

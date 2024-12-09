@@ -1,0 +1,10 @@
+fastapi
+pandas
+chardet
+openpyxl
+pyarrow
+sqlalchemy
+pymysql
+uvicorn
+python-multipart
+pydantic
